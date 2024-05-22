@@ -11,6 +11,7 @@ blocks:
       jobs:
         - name: bundle
           commands:
+            - sleep 120
             - sem-version ruby 2.7.3
             - sem-version node 14.16.1
             - checkout
